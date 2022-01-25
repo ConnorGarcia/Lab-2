@@ -6,7 +6,18 @@ int main()
 {
 string name1="Ahmed";
 hello1Function(name1);
-string name2="your name2";
+string name2="Connor";
 hello2Function(name2);
 return 0;
+}
+
+int hello1Function(string name1)
+{
+	cout << "hello World " << name1 << endl;
+	return 0;
+}
+int hello2Function(string name2)
+{
+	cout << "hello World " << name2 << endl;
+	return 0;
 }
